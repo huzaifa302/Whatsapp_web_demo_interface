@@ -1,0 +1,76 @@
+/* Fonts Start Here */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap");
+@font-face {
+  font-family: "segoe-ui";
+  src: url(../fonts/Segoe.ttf);
+}
+/* Fonts End Here */
+
+/* Header Sec Css Start Here */
+section.header {
+  background: #00a884;
+  padding: 40px 0px 149px 0px;
+}
+section.header .logo_box span.txt {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "segoe-ui";
+  padding-left: 15px;
+}
+/* Header Sec Css End Here */
+
+/* Web Login Sec Css Start Here */
+section.web_login {
+  background: #0a1014;
+  padding-bottom: 92px;
+}
+section.web_login .web_login_box {
+  background: #fff;
+  border-radius: 3px;
+  margin: 0px 50px;
+  position: relative;
+  top: -100px;
+}
+section.web_login .web_login_box .row {
+  padding: 64px 60px 110px;
+}
+section.web_login .web_login_box .scan-code {
+  text-align: right;
+}
+section.web_login .web_login_box .scan-code img {
+  width: 90%;
+}
+section.web_login .web_login_box .heading {
+  margin-bottom: 52px;
+}
+section.web_login .web_login_box .heading h2 {
+  font-family: "segoe-ui";
+  font-size: 29px;
+}
+section.web_login .web_login_box .instructions ul {
+  font-family: "poppins";
+  font-weight: 300;
+  list-style: auto;
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+section.web_login .web_login_box .instructions ul li {
+  margin-bottom: 20px;
+}
+section.web_login .web_login_box .instructions ul li strong {
+  font-weight: 600;
+  color: #3b4a54;
+}
+section.web_login .web_login_box .button-group {
+  margin-top: 55px;
+}
+section.web_login .web_login_box .button-group a {
+  color: #008069;
+  font-size: 14px;
+}
+section.web_login .video_box {
+  background: #f9f9fa;
+  padding: 72px 60px;
+  text-align: center;
+}
+/* Web Login Sec Css End Here */
